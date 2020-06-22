@@ -1,6 +1,6 @@
 {
     "common" : {
-	"loading": 60,
+	"loading" : 60,
 	"ready" : 7,
 	"finnish" : 15,
 	"loadingSound" : "/home/roy/personal/skivevender-2.0/lader.mp3",
@@ -66,8 +66,8 @@
 		{
 		    "name" : "Duell",
 		    "show" : 3,
-		    "hide": 7,
-		    "reps": 5
+		    "hide" : 7,
+		    "reps" : 5
 		},
 		{
 		    "name" : "20 sek",
@@ -102,9 +102,9 @@
 		{
 		    "name" : "3 - 12 sek",
 		    "show" : 3,
-		    "hide": 3,
-		    "reps": 5,
-		    "hideAppendRandom": 9
+		    "hide" : 3,
+		    "reps" : 5,
+		    "hideAppendRandom" : 9
 		}
 	    ]
 	}
