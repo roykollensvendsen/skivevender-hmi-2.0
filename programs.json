@@ -1,112 +1,196 @@
 {
-    "common" : {
-	"loading" : 60,
-	"ready" : 7,
-	"finnish" : 15,
-	"loadingSound" : "/home/roy/personal/skivevender-2.0/lader.mp3",
-	"readySound" : "/home/roy/personal/skivevender-2.0/ready.mp3"
-    },
-    "programs" : [ 
-	{
+  "common" : {
+  	"loading" : 60,
+  	"ready" : 7,
+  	"finnish" : 15,
+  	"loadingSound" : "/home/roy/personal/skivevender-2.0/lader.mp3",
+  	"readySound" : "/home/roy/personal/skivevender-2.0/ready.mp3"
+  },
+  "programs" : [
+    {
 	    "name" : "Fin/grov pistol",
 	    "stages" : [
-		{
-		    "name" : "Pressisjon",
-		    "show" : 300
-		},
-		{
-		    "name" : "Duell",
-		    "show" : 3,
-		    "hide" : 7,
-		    "reps" : 5
-		}
+    		{
+    		    "name" : "Pressisjon",
+    		    "show" : 300
+    		},
+    		{
+    		    "name" : "Duell",
+    		    "show" : 3,
+    		    "hide" : 7,
+    		    "reps" : 5
+    		}
 	    ]
-	},
-	{
-	    "name" : "Hurtig pistol",
-	    "stages" : [
-		{
-		    "name" : "10 sek",
-		    "show" : 10
-		},
-		{
-		    "name" : "8 sek",
-		    "show" : 8
-		},
-		{
-		    "name" : "6 sek",
-		    "show" : 6
-		}
-	    ]
-	},
-	{
-	    "name" : "Silhuett",
-	    "stages" : [
-		{
-		    "name" : "8 sek",
-		    "show" : 8
-		},
-		{
-		    "name" : "6 sek",
-		    "show" : 6
-		},
-		{
-		    "name" : "4 sek",
-		    "show" : 4
-		}
-	    ]
-	},
-	{
-	    "name" : "Nais",
-	    "stages" : [
-		{
-		    "name" : "150 sek",
-		    "show" : 150
-		},
-		{
-		    "name" : "Duell",
-		    "show" : 3,
-		    "hide" : 7,
-		    "reps" : 5
-		},
-		{
-		    "name" : "20 sek",
-		    "show" : 20
-		},
-		{
-		    "name" : "10 sek",
-		    "show" : 10
-		}
-	    ]
-	},
-	{
-	    "name" : "Standard",
-	    "stages" : [
-		{
-		    "name" : "150 sek",
-		    "show" : 150
-		},
-		{
-		    "name" : "20 sek",
-		    "show" : 20
-		},
-		{
-		    "name" : "10 sek",
-		    "show" : 10
-		}
-	    ]
-	},
-	{
-	    "name" : "Tilfeldig",
-	    "stages" : [
-		{
-		    "name" : "3 - 12 sek",
-		    "show" : 3,
-		    "hide" : 3,
-		    "reps" : 5,
-		    "hideAppendRandom" : 9
-		}
-	    ]
-	}
-    ]
+  	},
+  	{
+      "name" : "Hurtig pistol",
+      "stages" : [
+    		{
+    		    "name" : "10 sek",
+    		    "show" : 10
+    		},
+    		{
+    		    "name" : "8 sek",
+    		    "show" : 8
+    		},
+    		{
+    		    "name" : "6 sek",
+    		    "show" : 6
+    		}
+      ]
+  	},
+    {
+      "name" : "T96",
+      "stages" : [
+    		{
+  		    "name" : "11 meter",
+  		    "series" : [
+            {
+              "show" :  150,
+              "firingPosition" : "stående fri"
+            },
+            {
+              "show" :  150,
+              "firingPosition" : "stående 1 hånd"
+            },
+            {
+              "show" :  20,
+              "firingPosition" : "stående fri"
+            },
+            {
+              "show" :  20,
+              "firingPosition" : "stående 1 hånd"
+            },
+            {
+              "show" :  10,
+              "firingPosition" : "stående fri"
+            },
+            {
+              "show" :  10,
+              "firingPosition" : "stående 1 hånd"
+            }
+          ]
+    		},
+        {
+  		    "name" : "15 meter",
+          "series" : [
+            {
+              "show" :  150,
+              "firingPosition" : "stående fri"
+            },
+            {
+              "show" :  150,
+              "firingPosition" : "stående 1 hånd"
+            },
+            {
+              "show" :  20,
+              "firingPosition" : "stående fri"
+            },
+            {
+              "show" :  20,
+              "firingPosition" : "stående 1 hånd"
+            },
+            {
+              "show" :  10,
+              "firingPosition" : "stående fri"
+            },
+            {
+              "show" :  10,
+              "firingPosition" : "stående 1 hånd"
+            }
+          ]
+    		},
+        {
+  		    "name" : "25 meter",
+          "series" : [
+            {
+              "show" :  150,
+              "firingPosition" : "stående fri"
+            },
+            {
+              "show" :  150,
+              "firingPosition" : "stående 1 hånd"
+            },
+            {
+              "show" :  20,
+              "firingPosition" : "stående fri"
+            },
+            {
+              "show" :  20,
+              "firingPosition" : "stående 1 hånd"
+            }
+          ]
+    		}
+      ]
+  	},
+  	{
+      "name" : "Silhuett",
+      "stages" : [
+    		{
+    		    "name" : "8 sek",
+    		    "show" : 8
+    		},
+    		{
+    		    "name" : "6 sek",
+    		    "show" : 6
+    		},
+    		{
+    		    "name" : "4 sek",
+    		    "show" : 4
+    		}
+      ]
+  	},
+  	{
+      "name" : "Nais",
+      "stages" : [
+    		{
+    		    "name" : "150 sek",
+    		    "show" : 150
+    		},
+    		{
+    		    "name" : "Duell",
+    		    "show" : 3,
+    		    "hide" : 7,
+    		    "reps" : 5
+    		},
+    		{
+    		    "name" : "20 sek",
+    		    "show" : 20
+    		},
+    		{
+    		    "name" : "10 sek",
+    		    "show" : 10
+    		}
+      ]
+  	},
+  	{
+      "name" : "Standard",
+      "stages" : [
+    		{
+    		    "name" : "150 sek",
+    		    "show" : 150
+    		},
+    		{
+    		    "name" : "20 sek",
+    		    "show" : 20
+    		},
+    		{
+    		    "name" : "10 sek",
+    		    "show" : 10
+    		}
+      ]
+  	},
+  	{
+      "name" : "Tilfeldig",
+      "stages" : [
+    		{
+  		    "name" : "3 - 12 sek",
+  		    "show" : 3,
+  		    "hide" : 3,
+  		    "reps" : 5,
+  		    "hideAppendRandom" : 9
+    		}
+      ]
+  	}
+  ]
 }
