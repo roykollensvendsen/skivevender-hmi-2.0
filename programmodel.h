@@ -25,7 +25,7 @@ public:
     QHash<int,QByteArray> roleNames() const override;
 
 private:
-    bool readJsonFile(std::string file_path, QVariantMap& result);
+    bool readJsonFile(QString file_path, QVariantMap& result);
 
     QVector<QString> strings;
 };

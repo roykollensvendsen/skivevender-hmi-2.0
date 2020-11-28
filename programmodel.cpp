@@ -69,10 +69,10 @@ QHash<int, QByteArray> ProgramModel::roleNames() const
     return roles;
 }
 
-bool ProgramModel::readJsonFile(std::string file_path, QVariantMap& result)
+bool ProgramModel::readJsonFile(QString file_path, QVariantMap& result)
 {
     // step 1
-    QFile file_obj(QString::fromStdString(file_path));
+    QFile file_obj(file_path);
     if (!file_obj.open(QIODevice::ReadOnly)) {
         exit(1);
     }
