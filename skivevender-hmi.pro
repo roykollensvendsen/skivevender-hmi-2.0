@@ -17,7 +17,8 @@ SOURCES += \
         main.cpp \
         programmodel.cpp
 
-RESOURCES += qml.qrc
+RESOURCES += qml.qrc \
+    data.qrc
 
 TRANSLATIONS += \
     skivevender-hmi_nb_NO.ts

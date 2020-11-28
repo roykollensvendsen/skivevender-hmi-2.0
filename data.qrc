@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>programs.json</file>
+    </qresource>
+</RCC>

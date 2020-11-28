@@ -12,7 +12,7 @@ ProgramModel::ProgramModel(QObject *parent)
 {
     QVariantMap result;
 
-    readJsonFile("/home/roy/personal/skivevender-hmi-2.0/programs.json", result);
+    readJsonFile(":/programs.json", result);
 
     QJsonDocument document = QJsonDocument::fromVariant(result);
 
